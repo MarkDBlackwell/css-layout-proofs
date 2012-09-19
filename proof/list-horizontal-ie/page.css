@@ -1,0 +1,37 @@
+/*
+  border:1px solid pink;
+*/
+
+.swath{
+  width:100%;
+  background-color:black;
+}
+
+.menu li{
+  padding-left:0.1em;
+  padding-right:0.1em;
+}
+
+.menu ul{
+  list-style:none;
+}
+
+.menu li,
+.menu ul{
+  display:inline;
+}
+
+.tab{
+  min-width:3.0em;
+  padding-bottom:0.7em;
+  padding-top:0.8em;
+  background-color:skyBlue;
+  color:blue;
+  display:inline-block;
+  font-weight:bolder;
+}
+
+.menu,
+.tab{
+  text-align:center;
+}

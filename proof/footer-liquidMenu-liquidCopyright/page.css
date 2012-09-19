@@ -1,0 +1,48 @@
+/*
+  border:1px solid blue;
+*/
+
+.copyright{
+  margin-left:0.1em;
+  padding-right:0.1em;
+  right:0;
+  width:37%;
+  color:#838383;
+}
+
+.foot{
+  height:1.0em;
+  padding-bottom:0.4em;
+  padding-top:0.3em;
+  width:100%;
+  background-color:#171b1a;
+  clear:both;
+  position:relative;
+  text-align:center;
+}
+
+.menu{
+  left:0;
+  padding-left:0.1em;
+  width:63%;
+}
+
+.menu > ul{
+  list-style:none;
+}
+
+.tab{
+  margin-right:0.4em;
+  color:#309ed7;
+  font-weight:bolder;
+}
+
+.copyright,
+.menu{
+  position:absolute;
+}
+
+.tab,
+.menu > ul > li{
+  display:inline;
+}

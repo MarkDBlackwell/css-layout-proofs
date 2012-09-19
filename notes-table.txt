@@ -1,0 +1,4 @@
+See:
+http://www.htmldog.com/guides/cssadvanced/display/
+http://www.htmldog.com/guides/htmladvanced/tables/
+http://icant.co.uk/csstablegallery/tables/89.php

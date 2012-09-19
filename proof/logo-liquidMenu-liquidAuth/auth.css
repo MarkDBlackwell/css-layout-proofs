@@ -1,0 +1,18 @@
+.site-auth{
+  bottom:0;
+  padding-bottom:0.1em;
+  right:0;
+  width:35%;
+  color:white;
+  position:absolute;
+}
+
+.site-auth > p{
+  margin-left:0.8em;
+  margin-right:0.8em;
+}
+
+.site-auth,
+.site-auth > p{
+  border:1px solid red; /* Explicatory. */
+}

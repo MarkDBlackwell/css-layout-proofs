@@ -1,0 +1,29 @@
+.site-head{
+  border:2px solid black; /* Explicatory. */
+  width:100%;
+}
+
+.site-head__gray{
+  background-color:#808080;
+}
+
+.site-head__white-bottom{
+  height:12px;
+}
+
+.site-head-background-wrapper{
+  border:3px solid blue; /* Explicatory. */
+  height:6.5em;
+  background-color:#171b1a; /* Keep here for IE 8. */
+  position:relative; /* Keep here. */
+}
+
+.site-head__gray,
+.site-head__white{
+  height:1px;
+}
+
+.site-head__white,
+.site-head__white-bottom{
+  background-color:white;
+}

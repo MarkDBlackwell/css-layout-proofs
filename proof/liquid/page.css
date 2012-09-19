@@ -1,0 +1,47 @@
+/*
+  border:1px solid blue;
+*/
+
+.col1{
+  width:30%;
+}
+
+.col2{
+  width:48%;
+}
+
+.col3{
+  width:20%;
+}
+
+.foot{
+  margin-top:10px;
+}
+
+.head{
+  margin-bottom:10px;
+}
+
+.foot,
+.head{
+  background-color:#efe0e0;
+}
+
+.col1,
+.col2,
+.col3,
+.foot,
+.head{
+  border:1px solid blue;
+  float:left;
+}
+
+.col1 p,
+.col2 p,
+.col3 p,
+.foot p,
+.head p{
+/* Directly apply margins to items in containers if desired: */
+  margin-left:0.2em;
+  margin-right:0.2em;
+}

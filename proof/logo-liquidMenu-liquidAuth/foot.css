@@ -1,0 +1,17 @@
+.site-foot{
+  padding-bottom:0.4em;
+  padding-top:0.4em;
+  width:100%;
+  background-color:#333333;
+  clear:left;
+  color:#ffffff;
+}
+
+.site-foot > p{
+  margin-left:0.4em;
+}
+
+.site-foot,
+.site-foot > p{
+  border:2px solid white; /* Explicatory. */
+}

@@ -1,0 +1,42 @@
+.site-menu{ /* Can't have position:absolute here. */
+  margin-left:185px; /* Equals logo width. */
+  margin-right:35%;  /* Equals auth width. */
+}
+
+.site-menu > ul{
+  padding-bottom:0.5em;
+  padding-top:0.6em;
+  text-align:center;
+}
+
+.site-menu > ul > li{
+  display:inline;  /* Horizontal menu. */
+}
+
+.site-menu > ul > li > a{
+  text-decoration:none; /* Prevent link underlining (by IE & Chrome). */
+  border-left:0.1em solid white; /* Menu separator. */
+}
+
+.site-menu > ul > li > a.first{
+  border-left-style:none; /* IE 8 lacks the negation pseudo-class. */
+}
+
+.site-menu > ul > li > a > span{
+/* Use padding to make the whole tab a clickable link: */
+  padding-left:0.4em;
+  padding-right:0.4em;
+  color:#ede3e0;
+  font-weight:bold;
+}
+
+.site-menu-container{
+  bottom:0;
+  width:100%;
+  position:absolute; /* Position:absolute throws to the left. */
+}
+
+.site-menu,
+.site-menu > ul > li > a > span{
+  border:1px solid red; /* Explicatory. */
+}

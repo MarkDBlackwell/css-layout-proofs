@@ -1,0 +1,47 @@
+.main{
+  border-bottom:2px solid blue; /* Explicatory. */
+  border-top:2px solid blue; /* Explicatory. */
+  width:100%;
+  position:relative;
+}
+
+.main p{
+  margin-bottom:0.8em;
+  margin-left:0.8em;
+  margin-right:0.8em;
+}
+
+.main-content{
+  margin-left:16em; /* Equals navigation width. */
+  margin-right:33%; /* Equals 'extra' width. */
+}
+
+.main-content > img{
+  border:1px solid blue; /* Explicatory. */
+  float:left;
+}
+
+.main-extra{
+  right:0;
+  width:33%;
+  background-color:#ff8539;
+}
+
+.main-navigation{
+  left:0;
+  width:16em;
+  background-color:#b9caff;
+}
+
+.main-content,
+.main p{
+  border:2px solid green; /* Explicatory. */
+}
+
+.main-extra,
+.main-navigation{
+  border-bottom:1px solid red; /* Explicatory. */
+  border-top:1px solid red; /* Explicatory. */
+  top:0;
+  position:absolute;
+}

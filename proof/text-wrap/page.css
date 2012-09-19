@@ -1,0 +1,15 @@
+/*
+  border:1px solid blue;
+*/
+
+.below{
+  clear:both; /* Prevent appearance right of picture. */
+}
+
+.main{
+  background-color:#e7ebea;
+}
+
+.main > img{
+  float:left;
+}

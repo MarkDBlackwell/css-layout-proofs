@@ -1,0 +1,9 @@
+.site-head p{
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.site-head-wrapper{
+  width:100%;
+  float:left;
+}

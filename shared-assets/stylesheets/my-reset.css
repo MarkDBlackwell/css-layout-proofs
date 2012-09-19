@@ -1,0 +1,10 @@
+/* Following Richard Rutter's recommendations for 'How to Size Text in CSS,' across browsers.
+Ref:
+http://www.alistapart.com/articles/howtosizetextincss/
+*/
+
+body{
+  font-size:76%; /* Perhaps this is a good size for 2012 screen (pixel) dimensions. */
+  line-height:1.125em; /* Make the vertical rhythm consistent (regardless of font size). */
+  font-family:verdana,arial,sans-serif;
+}

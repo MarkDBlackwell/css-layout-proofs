@@ -1,0 +1,42 @@
+/*
+  border:1px solid blue;
+*/
+
+.menu{
+  border-width:10px;
+  border-bottom-color:#a0cef8;
+  border-bottom-style:solid;
+}
+
+.menu li{
+  display:inline;  /* Align menu links horizontally. */
+}
+
+.menu li a{
+  padding-left:10px;  /* Display:block won't work in this example; instead use padding to make the whole tab a clickable link. */
+  color:#5d5350;
+  font-weight:bold;
+  text-decoration:none;
+}
+
+.menu li a span{
+  padding-right:10px;
+}
+
+.menu ul{
+  margin-bottom:6px;  /* Align the blue border below the menu. */
+  text-align:center;
+}
+
+.menu li a,
+.menu li a span{
+  padding-bottom:6px;
+  padding-top:7px;
+}
+
+.menu li a,
+.menu li a:hover,
+.menu li a       span,
+.menu li a:hover span{
+  background-color:pink
+}

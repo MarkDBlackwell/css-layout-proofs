@@ -1,0 +1,7 @@
+Has a page container div:
+three-column-twice
+list-horizontal-ie
+
+Maybe has one:
+footer-liquidMenu-liquidCopyright
+liquid-footer
