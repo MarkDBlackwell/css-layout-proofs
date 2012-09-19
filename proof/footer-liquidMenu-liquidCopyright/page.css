@@ -35,6 +35,7 @@
   margin-right:0.4em;
   color:#309ed7;
   font-weight:bolder;
+  text-decoration:none; /* Prevent link underlining (by IE & Chrome). */
 }
 
 .copyright,

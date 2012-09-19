@@ -8,3 +8,16 @@ body{
   line-height:1.125em; /* Make the vertical rhythm consistent (regardless of font size). */
   font-family:verdana,arial,sans-serif;
 }
+
+
+/* After reset to font:inherit (put in various page.css, if needed):
+
+em{
+  font-style:italic;
+}
+
+strong{
+  font-weight:bold;
+}
+
+*/

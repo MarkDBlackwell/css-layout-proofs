@@ -1,42 +1,85 @@
-.site-menu{ /* Can't have position:absolute here. */
+.site-menu > ul{
+  text-align:center;
+  background-color:navajoWhite; /* Explicatory. */
+}
+
+.site-menu > ul > li{
+/*  border:1px solid red; * Explicatory. */
+  display:inline;  /* Horizontal menu. */
+}
+
+.site-menu > ul > li:first-child > span{
+/* Chrome 21 detects the first-child pseudo-class, yet here fails to shrink the parent object. */
+  padding-left:0;
+  border-left-style:none; /* IE 8 lacks the negation pseudo-class. */
+}
+
+.site-menu > ul > li.last > span > a{
+/* IE 8 lacks the last-child pseudo-class. */
+/* Chrome 21 here fails to shrink the parent object. */
+  margin-right:0;
+}
+
+.site-menu > ul > li.selected > span > a{
+  border-bottom-color:green;
+}
+
+.site-menu > ul > li > span{
+  border-left-width:0.1em; /* Menu separator. */
+  padding-left:3.4%; /* Equals tab margin-right. */
+  border-left-color:white;
+  border-left-style:solid;
+}
+
+.site-menu > ul > li > span > a{
+/* Tab. Padding makes the whole tab a clickable link: */
+  border-bottom-width:0.3em;
+  margin-right:3.4%; /* To prevent too-wide selected-tab underlining, keep as margin-right (not padding). */
+  padding-top:0.6em;
+  background-color:#272b2a;
+  border-bottom-color:#272b2a; /* Equals background color. */
+  border-bottom-style:solid;
+  text-decoration:none; /* Prevent link underlining (by IE & Chrome). */
+}
+
+.site-menu > ul > li > span > a > img{
+  margin-right:0.3em;
+}
+
+.site-menu > ul > li > span > a > span{
+  color:#ede3e0;
+  font-weight:bolder;
+}
+
+.site-menu-container{
+  border:1px solid gold; /* Explicatory. */
+  bottom:0;
+  position:absolute; /* Keep here. */
+}
+
+.site-menu-container2{
+  border:1px solid darkTurquoise; /* Explicatory. */
   margin-left:185px; /* Equals logo width. */
   margin-right:35%;  /* Equals auth width. */
 }
 
-.site-menu > ul{
-  padding-bottom:0.5em;
-  padding-top:0.6em;
-  text-align:center;
-}
-
-.site-menu > ul > li{
-  display:inline;  /* Horizontal menu. */
-}
-
-.site-menu > ul > li > a{
-  text-decoration:none; /* Prevent link underlining (by IE & Chrome). */
-  border-left:0.1em solid white; /* Menu separator. */
-}
-
-.site-menu > ul > li > a.first{
-  border-left-style:none; /* IE 8 lacks the negation pseudo-class. */
-}
-
-.site-menu > ul > li > a > span{
-/* Use padding to make the whole tab a clickable link: */
-  padding-left:0.4em;
-  padding-right:0.4em;
-  color:#ede3e0;
-  font-weight:bold;
-}
-
+.site-menu, /* Can't have position:absolute here. */
 .site-menu-container{
-  bottom:0;
-  width:100%;
-  position:absolute; /* Position:absolute throws to the left. */
+  border:1px solid red; /* Explicatory. */
+  width:100%; /* Keep here. */
 }
 
-.site-menu,
-.site-menu > ul > li > a > span{
-  border:1px solid red; /* Explicatory. */
+.site-menu > ul,
+.site-menu > ul > li > span > a > span{
+  padding-bottom:0.3em; /* Equals tab border-bottom-width. */
+}
+
+.site-menu > ul > li.last > span,
+.site-menu > ul > li:first-child > span{
+  background-color:red; /* Explicatory. */
+}
+
+.site-menu > ul > li.last > span > a,
+.site-menu > ul > li:first-child > span > a{
+  background-color:blue; /* Explicatory. */
 }

@@ -7,3 +7,7 @@ By prakashkpc (Own work Transferred from en.wikipedia) [Public domain], via Wiki
 The icon image file, favicon.ico is copyright (c) 2012 Mark D. Blackwell, and was created by Mark D. Blackwell at:
 
 http://www.favicon.cc/
+
+The menu icon, menu-icon.png, is public domain, from:
+
+http://www.pdclipart.org/displayimage.php?album=107&pos=77

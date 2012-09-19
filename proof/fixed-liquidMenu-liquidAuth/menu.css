@@ -21,7 +21,7 @@
   padding-left:10px;  /* Display: block won't work in this example; instead we are using padding to make the whole tab a clickable link. */
   color:#5d5350;
   font-weight:bold;
-  text-decoration:none;
+  text-decoration:none; /* Prevent link underlining (by IE & Chrome). */
 }
 
 .site-menu-wrapper li a span{

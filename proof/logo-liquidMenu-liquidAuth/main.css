@@ -16,7 +16,7 @@
   margin-right:33%; /* Equals 'extra' width. */
 }
 
-.main-content > img{
+.main-content > .image{
   border:1px solid blue; /* Explicatory. */
   float:left;
 }

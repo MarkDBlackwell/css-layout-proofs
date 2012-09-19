@@ -1,4 +1,4 @@
-.site-auth{
+.auth{
   bottom:0;
   padding-bottom:0.1em;
   right:0;
@@ -7,12 +7,12 @@
   position:absolute;
 }
 
-.site-auth > p{
+.auth > p{
   margin-left:0.8em;
   margin-right:0.8em;
 }
 
-.site-auth,
-.site-auth > p{
+.auth,
+.auth > p{
   border:1px solid red; /* Explicatory. */
 }
